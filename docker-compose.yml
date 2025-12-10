@@ -2,4 +2,4 @@ services:
   tnn-docs:
     build: .
     ports:
-      - "8080:80"
+      - "9002:80"
