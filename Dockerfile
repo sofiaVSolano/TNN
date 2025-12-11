@@ -3,7 +3,7 @@ FROM python:3.13-slim
 
 WORKDIR /app
 
-COPY . /app
+COPY . /app /app
 
 # Instalar dependencias
 RUN pip install --no-cache-dir flask python-docx pillow
