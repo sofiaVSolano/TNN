@@ -1,5 +1,9 @@
+version: '3.8'
 services:
-  tnn-docs:
+  firmas-app:
     build: .
     ports:
       - "9003:80"
+    volumes:
+      - .:/app
+    restart: unless-stopped
