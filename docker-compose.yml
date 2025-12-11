@@ -1,9 +1,8 @@
 version: '3.8'
+
 services:
   firmas-app:
     build: .
     ports:
-      - "9003:80"
-    volumes:
-      - .:/app
+      - "9003:9003"
     restart: unless-stopped
